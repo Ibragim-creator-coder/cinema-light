@@ -1,0 +1,110 @@
+.container1 {
+  display: flex;
+  width: 200px;
+}
+.box1 {
+  width: 200px;
+  height: 100px;
+  background: rgb(185, 0, 0);
+}
+.box2 {
+    width: 200px;
+    height: 100px;
+    background: rgb(20, 14, 14);
+}
+.box3 {
+    width: 200px;
+    height: 100px;
+    background: rgb(25, 220, 29);
+}
+.container {
+    display: flex;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container4 {
+    display: flex;
+    flex-direction: column;
+}
+.container5 {
+    display: flex;
+    gap: 20px;
+}
+.container6 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 120px;
+    background: #eee;
+    border-radius: 8px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background: #eee;
+}
+
+.box {
+    height: 50px;
+    width: 80px;
+    background: blue;
+}
+.container {
+    display: flex;
+    align-items: flex-start; 
+    height: 150px;
+    background: #eaeaea;
+    padding: 10px;
+    gap: 10px;
+}
+
+.box {
+    background: #4a90e2;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+.small {
+    height: 30px;
+}
+
+.medium {
+    height: 60px;
+}
+
+.big {
+    height: 100px;
+}
+.box {
+  width: calc(50% - 20px);
+  height: 100px;
+  background-color: lightcoral;
+  margin: 10px;
+}
+@media (max-width: 600px) {
+    .box {
+      width: calc(100% - 20px); /* почти вся ширина экрана */
+      background-color: lightblue;
+    }
+  }

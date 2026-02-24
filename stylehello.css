@@ -1,0 +1,49 @@
+button {
+    width: 138px;
+    height: 53px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 0px #262e4bcc;
+    background-color: #10131e;
+    border: none;
+
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 167%;
+    color:#FFFFFF;
+}
+button:hover{
+  background-color: #3657CB;
+}
+
+p::first-letter {
+  font-size: 40px;
+  color: blue;
+}
+
+.how::selection {
+  background: rgb(192, 245, 0);
+  color: rgb(255, 0, 0);
+}
+li:nth-child(2) {
+  font-weight: bold;
+}
+input:focus {
+  border: 20px solid red;
+}
+.note::before {
+  content: "Нет.";
+}
+.note::after {
+  content: "!";
+}
+.story::first-line {
+  font-weight: bold;
+}
+.btn:active {
+  background-color: red;
+}
+a:visited{
+  color: #000000;
+}
