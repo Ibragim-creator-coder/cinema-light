@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
 }
 body {
     background-image: url('./images/joker.png');
@@ -533,6 +533,7 @@ header nav ul li a {
 .image-wrapper img {
   display: block;
   width: 100%;
+  border-radius: 4px;
   height: auto;
 }
 
@@ -824,4 +825,211 @@ iframe {
     font-family: "Qanelas", sans-serif;
     font-weight: 700;
     font-size: 12px;
+}
+.splide__arrows {
+    display: flex;
+    align-items: center;          
+    justify-content: space-between;              
+    margin: 20px 500px;          
+    gap: 40px;                   
+}
+
+.splide__arrow {
+    background: none;
+    width: 35px;              
+    cursor: pointer;
+    padding-top: calc(50vw - 100px);
+    padding-left: calc(37vw - 70px);
+    padding-right: calc(38vw - 70px);
+}
+.counter {
+    color: white;
+    background: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: calc(6.02px -7.04px);
+    padding-left: 1px;    
+}
+
+.popular-persons{
+    padding-left: calc(14.3vw - 31.8px);
+    padding-top: 50px;
+    flex-direction: column;
+    padding-right: calc(14.4vw - 32.4px);
+}
+.all-popular-persons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+@media (max-width:1000px){
+    .all-popular-persons{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+.all-popular-persons h6 {
+    font-family: 'Qanelas',sans-serif;
+    font-weight: 900px;
+    font-size: 30px;
+    line-height: 100%;
+    gap: 20px;
+    color: #FFFFFF;
+}
+.all-popular-persons .pages-popular-persons .pages-popular-persons1{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.pages-popular-persons .page-popular-persons2 a{
+    font-family: 'Qanelas',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(67, 70, 70);
+}
+.pages-popular-persons .pages-popular-persons1 .page-popular-persons2 a:hover{
+    color: #FFFFFF;
+}
+.popular-persons-rating-rows{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 20px;               
+}
+@media (max-width:768px){
+    popular-persons-rating-rows{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;                     
+}
+}
+.popular-persons-rating{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: calc(16.5vw + 126px);
+    height: 444px;
+    position: relative;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.popular-persons-rating img{
+    width: 100%;
+    height: 100%; 
+    cursor: pointer;
+    border-radius: 10px;
+}
+.popular-persons-rating  a{
+    width: 100%;
+    height: 100%; 
+    cursor: pointer;
+    border-radius: 10px;
+}
+.popular-persons-rating h6{
+    font-family: 'Qanelas',sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    top: calc(13.3vw + 73.2px);
+    left: calc(1.4vw + 8.338px);
+    cursor: pointer;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.popular-persons-rating span{
+    font-family: 'Qanelas',sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    position: absolute;
+    top: calc(0.5vw + 3.4px);
+    left: calc(0.56vw + 5.2px);
+    cursor: pointer;
+    line-height: 100%;
+    color: #e5ff00;
+}
+
+.popular-persons-rating p{
+    font-family: 'Qanelas',sans-serif;
+    font-weight: 700px;
+    font-size: 13px;
+    position: absolute;
+    top: calc(14.01vw + 93.144px);
+    left: calc(1.4vw + 8.338px);
+    cursor: pointer;
+    line-height: 100%;
+    color: #818181;
+}
+.popular-persons-rating .year{
+    font-family: 'Qanelas',sans-serif;
+    font-weight: 700px;
+    font-size: 10px;
+    position: absolute;
+    top: calc(14.75vw + 108.8px);
+    left: calc(1.4vw + 8.4px);
+    cursor: pointer;
+    line-height: 100%;
+    color: #d4ff00;
+}
+
+.black-wall{
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    background: #1B2133;
+    padding-left: 29.63px;
+    padding-right: 28.09px;
+    padding-top: 14.04px;
+} 
+.black-wall-ratings{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 4px;
+}
+.black-wall-ratings h5{
+    font-family: 'Qanelas',sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding-top: 29px;
+}
+
+.black-wall-ratings h6{
+    font-family:'Qanelas',sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 100%;
+    color: #3B486B;
+}
+
+.black-wall-ratings span{
+    font-family:'Qanelas',sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    position: absolute;
+    top: calc(0.2vw + 37.7px);
+    right: calc(0.2vw + 3.7px);
+    line-height: 100%;
+    color: #F2F60F;
+}
+
+.black-wall-ratings p{
+    font-family: 'Qanelas',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 100%;
+    color: #F2F60F;
 }
