@@ -2188,7 +2188,7 @@ iframe {
 }
 .blue-wall{
     background-image: url(./images/all-films.png);
-    width: calc(66.35vw + 156px);
+    width: calc(66.35vw + 146px);
     height: calc(11.25vw + 322px);
     background-color: #151A26;
     background-repeat: no-repeat;
