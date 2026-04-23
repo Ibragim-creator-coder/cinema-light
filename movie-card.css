@@ -359,5 +359,8 @@ body {
     color: #ffffff;
 }
 .production-movie-card a, .special-effects-movie-card a{
-    
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #b8ff04;
 } 
