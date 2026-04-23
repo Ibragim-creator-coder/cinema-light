@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 body {
@@ -2188,11 +2188,16 @@ iframe {
 }
 .blue-wall{
     background-image: url(./images/all-films.png);
-    width: calc(66.35vw + 146px);
-    height: calc(11.25vw + 322px);
+    width: 100%;
+    height: 100%;
     background-color: #151A26;
     background-repeat: no-repeat;
     background-position: center top;
+}
+@media(max-width: 1216px){
+    .subscribe{
+        gap:16px;
+    }
 }
 .subscribe{
     display: flex;
@@ -2295,7 +2300,7 @@ iframe {
 }
 @media(max-width: 600px){
     .negotiation span{
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
@@ -2314,6 +2319,79 @@ iframe {
 }
 @media(max-width: 600px){
     .politic{
-        font-size: 14px;
+        font-size: 10px;
+    }
+}
+footer{
+    width: 100%;
+    display: flex;
+    padding-left: calc(14.3vw - 31.8px);
+    padding-top: 61px;
+    flex-direction: column;
+    padding-right: calc(14.4vw - 32.4px);
+    align-items: center;
+    gap: 30px;
+}
+footer .links-pages .links-pages-rows {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+@media(max-width: 869px){
+    footer .links-pages{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width: 869px){
+    footer .links-pages .links-pages-rows{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+footer .links-pages .links-pages-rows .links-page{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    list-style: none;
+}
+
+@media(max-width: 1001px){
+    footer .links-pages .links-pages-rows .links-page{
+        font-size: 13px;
+    }
+}
+footer .links-pages .links-pages-rows .links-page a {
+    text-decoration: none;
+    color: #FFFFFF;
+    outline: none;
+}
+footer span{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    list-style: none;
+    color: #E3E6F0B8;
+}
+@media(max-width: 1001px){
+    footer span{
+        font-size: 13px;
+    }
+}
+footer a{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    list-style: none;
+    color: #E3E6F0B8;
+}
+@media(max-width: 1001px){
+    footer a{
+        font-size: 13px;
     }
 }

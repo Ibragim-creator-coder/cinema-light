@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
+}
+
+body {
+    background-image: url('./images/big-potter.png');
+    background-size: cover;
+    background-color: #151A26;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.movie-card-discribution{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: calc(14.3vw - 32.02px);
+    padding-right: calc(14.4vw - 32.5px);
+}
+.ava-movie-card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.cover-movie-card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.cover-movie-card img{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+}
+.movie-card-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+}
+.movie-card-buttons .like-dislike-movie-card, .heart-movie-card{
+    width: 59px;
+    height: 59px;
+    border-radius: 10px;
+    background-color: #151A26;
+}
+.like-dislike-movie-card img, .heart-movie-card img{
+    width: 100%;
+    height: 100%;
+}
+
+.progress-box {
+  width: 185px;
+  height: 59px;
+  position: relative;
+  border-radius: 10px;
+  background: #1B2133;
+  font-family: sans-serif;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  position: absolute;
+  color: white;
+  top: 20px;
+  left: 10px;
+  font-size: 14px;
+}
+
+/* Полоса */
+.progress-bar {
+  width: 157px;
+  height: 59px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+  overflow: hidden;
+}
+
+/* Заполнение */
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #3cff00, #aaff00);
+  transition: width 1s ease;
+}
+.movie-card-buttons span{
+    font-family: "Qanelas", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #E8E9EB;
+}
+.escape-from-pretoria{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.escape-from-pretoria .pretoria-pages .pretoria-pages-rows {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.pretoria-pages-rows .pretoria-page a {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(67, 70, 70);
+}
+
+.pretoria-pages .pretoria-pages-rows .pretoria-page a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.escape-from-pretoria h2{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.escape-from-pretoria img{
+    width: 145px;
+    height: 71px;
+}
+.escape-from-pretoria p{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.wrapper {
+  display: flex;
+  gap: 80px;
+}
+
+.progress-card {
+  text-align: center;
+  position: relative;
+}
+
+.progress-ring {
+    transform: rotate(-90deg);
+}
+
+.bg {
+  stroke: #1f2a1f;
+}
+.progress1 {
+  fill: #4BCB364D;
+  stroke-width: 32;
+  stroke: #4cff00;
+  stroke-linecap: round;
+  stroke-dasharray: 502;
+  stroke-dashoffset: 142;
+  transition: stroke-dashoffset 1s ease-out;
+}
+.progress2 {
+  fill: #89CB364D;
+  stroke-width: 32;  
+  stroke: #ffff00;
+  stroke-linecap: round;
+  stroke-dasharray: 502;
+  stroke-dashoffset: 142;
+  transition: stroke-dashoffset 1s ease-out;
+}
+
+.value {
+  font-family: 'Qanelas', sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.progress-card p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.escape-from-pretoria span{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.play-links{
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+}
+.play-links .play{
+    background: none;
+    border-color: #E8E9EB;
+    border-radius: 10px;
+    width: 230px;
+    height: 70px;
+}
+.play-links{
+    padding-top: 30px;
+}
+.play .play-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.play-img img{
+    width: 20px;
+}
+.play-img span{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 167%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.info-movie-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 45px;
+    gap: 63px;
+}
+.info-movie-card-rows{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+}
+
+.info-movie-card-rows-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+.info-movie-card-rows-details p{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.info-movie-card-rows-details a{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    align-self: self-end;
+    line-height: 100%;
+    color: #f3f300;
+}
+.blue-wall-director-movie-card{
+    width: 100%;
+    height: 100%;
+    margin-top: 47px;
+    padding-top: 36px;
+    padding-left: 41px;
+    padding-bottom: 43px;
+    background-color: #3657CB4D;
+    background-position: center top;
+    border-radius: 10px;
+}
+.director-movie-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.photo-studio-movie-card{
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+}
+.photo-studio-dubbing-movie-card{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+.photo-studio-dubbing-movie-card img{
+    width: 151px;
+    height: 216.23199462890625px;
+}
+.photo-studio-dubbing-movie-card p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+}
+.photo-studio-dubbing-movie-card a {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #eaff00;
+}
+.director-name-movie-card{
+    display: flex;
+    flex-direction: column;
+    padding-top: 77px;
+}
+.director-name-movie-card h3{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+}
+.director-name-movie-card p{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFFB2;
+}
+.director-name-movie-card span{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #eaff08;
+}
