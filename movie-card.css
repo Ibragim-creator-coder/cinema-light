@@ -270,6 +270,7 @@ body {
     margin-top: 47px;
     padding-top: 36px;
     padding-left: 41px;
+    padding-right: 23px;
     padding-bottom: 43px;
     background-color: #3657CB4D;
     background-position: center top;
@@ -278,7 +279,7 @@ body {
 .director-movie-card{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    gap: 46px;
 }
 .photo-studio-movie-card{
     display: flex;
@@ -335,3 +336,28 @@ body {
     font-size: 16px;
     color: #eaff08;
 }
+.creators-movie-card{
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    gap: 79px;
+}
+.production-movie-card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.special-effects-movie-card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.production-movie-card p, .special-effects-movie-card p{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+}
+.production-movie-card a, .special-effects-movie-card a{
+    
+} 
