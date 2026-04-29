@@ -139,11 +139,11 @@ body {
 .escape-from-pretoria h2{
     font-family: 'Qanelas', sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 65px;
     line-height: 100%;
     color: #FFFFFF;
 }
-@media(max-width: 1000px){
+@media(max-width: 1603px){
     .escape-from-pretoria h2{
     font-family: 'Qanelas', sans-serif;
     font-weight: 900;
@@ -152,6 +152,21 @@ body {
     color: #FFFFFF;
 }
 }
+@media(max-width: 1221px){
+    .escape-from-pretoria h2{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+}
+@media(max-width: 1074px){
+    .escape-from-pretoria{
+    display: none;
+}
+}
+
 .escape-from-pretoria img{
     width: 145px;
     height: 71px;
@@ -295,6 +310,16 @@ body {
     padding-top: 45px;
     gap: 63px;
 }
+@media(max-width:824px){
+    .info-movie-card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 45px;
+        gap: 63px;
+}
+}
+
 .info-movie-card-rows{
     display: flex;
     flex-direction:column;
@@ -314,6 +339,34 @@ body {
     line-height: 100%;
     color: #FFFFFF;
 }
+@media(max-width:1001px){
+    .info-movie-card-rows-details p{
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        color: #FFFFFF;
+}
+}
+@media(max-width:769px){
+    .info-movie-card-rows-details p{
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 100%;
+        color: #FFFFFF;
+}
+}
+@media(max-width:426px){
+    .info-movie-card-rows-details p{
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 100%;
+        color: #FFFFFF;
+}
+}
+
 .info-movie-card-rows-details a{
     font-family: 'Qanelas', sans-serif;
     font-weight: 500;
@@ -321,6 +374,34 @@ body {
     line-height: 100%;
     color: #f3f300;
 }
+@media(max-width:1001px){
+    .info-movie-card-rows-details a{
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        color: #f3f300;
+}
+}
+@media(max-width:769px){
+    .info-movie-card-rows-details a{
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 100%;
+        color: #f3f300;
+}
+}
+@media(max-width:426px){
+    .info-movie-card-rows-details a{
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 100%;
+        color: #f3f300;
+}
+}
+
 .blue-wall-director-movie-card{
     width: 100%;
     height: 100%;
@@ -337,6 +418,13 @@ body {
     display: flex;
     flex-direction: row;
     gap: 46px;
+}
+@media(max-width:913px){
+    .director-movie-card{
+        display: flex;
+        flex-direction: column;
+        gap: 46px;
+}
 }
 .photo-studio-movie-card{
     display: flex;
@@ -377,6 +465,14 @@ body {
     font-weight: 600;
     font-size: 18px;
     color: #ffffff;
+}
+@media(max-width:492px){
+   .director-name-movie-card h3{
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: #ffffff;
+} 
 }
 .director-name-movie-card p{
     display: flex;
