@@ -978,7 +978,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 20px;
+    gap: 70px;
 }
 .movie-card-trailer-films-navigation-rows .movie-card-trailer-films-navigation-pages{
     font-family: 'Qanelas', sans-serif;
@@ -1010,8 +1010,8 @@ body {
     background-color: #3657CB;
     padding-top: calc(0.5vw + 23.4px);
     padding-bottom: calc(0.5vw + 23.4px);
-    padding-left: calc(1.1vw + 56.2px);
-    padding-right: calc(1.1vw + 56.2px);
+    padding-left: calc(1.1vw + 30.2px);
+    padding-right: calc(1.1vw + 30.2px);
     border-radius: 10px;
     box-shadow: 60px #3657CBCC;
     color: #E8E9EB;
