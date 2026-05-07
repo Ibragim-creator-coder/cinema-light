@@ -969,6 +969,7 @@ body {
     padding-right: calc(14.4vw - 32.5px);
 }
 .movie-card-trailer-films-navigation{
+    width: 100%;
     display: flex;
 }
 .movie-card-trailer-films-navigation-rows{
