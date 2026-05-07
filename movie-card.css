@@ -971,6 +971,7 @@ body {
 .movie-card-trailer-films-navigation-rows{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 40px;
 }
