@@ -968,13 +968,16 @@ body {
     padding-left: calc(14.3vw - 32.02px);
     padding-right: calc(14.4vw - 32.5px);
 }
+.movie-card-trailer-films-navigation{
+    display: flex;
+}
 .movie-card-trailer-films-navigation-rows{
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 40px;
+    gap: 20px;
 }
 .movie-card-trailer-films-navigation-rows .movie-card-trailer-films-navigation-pages{
     font-family: 'Qanelas', sans-serif;
