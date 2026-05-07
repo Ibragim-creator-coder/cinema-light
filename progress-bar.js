@@ -1,10 +1,9 @@
-function animateProgress(circle, valueEl, target) {
-  const radius = 80;
-  const circumference = 2 * Math.PI * radius;
-
-  circle.style.strokeDasharray = circumference;
+window.addEventListener("load", () => {
+  const progress = document.getElementById("progress");
+  const percentText = document.querySelector(".percent");
 
   let current = 0;
+  const target = 85;
   const duration = 1500;
   const stepTime = 16;
   const steps = duration / stepTime;
@@ -18,17 +17,8 @@ function animateProgress(circle, valueEl, target) {
       clearInterval(interval);
     }
 
-    const offset = circumference - (current / 10) * circumference;
-    circle.style.strokeDashoffset = offset;
-    valueEl.textContent = current.toFixed(2);
+    progress.style.width = current + "%";
+    percentText.textContent = Math.round(current) + "%";
 
   }, stepTime);
-}
-
-// запуск при загрузке
-window.addEventListener("load", () => {
-  const circles = document.querySelectorAll(".progress");
-
-  animateProgress(circles[0], document.getElementById("value1"), 8.7);
-  animateProgress(circles[1], document.getElementById("value2"), 6.7);
 });
