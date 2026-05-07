@@ -958,3 +958,47 @@ body {
     text-decoration: none;
     color: #F2F60F;
 }
+
+.movie-card-trailer-films{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: calc(4.9vw + 8.2px);
+    padding-left: calc(14.3vw - 32.02px);
+    padding-right: calc(14.4vw - 32.5px);
+}
+.movie-card-trailer-films-navigation-rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.movie-card-trailer-films-navigation-rows .movie-card-trailer-films-navigation-pages{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    list-style: none;
+    line-height: 100%;
+    text-decoration: none;
+    color: #FFFFFF80;
+}
+@media (max-width:1001px){
+    .movie-card-trailer-films-navigation-rows .movie-card-trailer-films-navigation-pages{
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        list-style: none;
+        line-height: 100%;
+        text-decoration: none;
+        color: #FFFFFF80;
+}
+}
+.movie-card-trailer-films-navigation-rows .movie-card-trailer-films-navigation-pages a{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    list-style: none;
+    line-height: 100%;
+    text-decoration: none;
+    color: #FFFFFF80;
+}
