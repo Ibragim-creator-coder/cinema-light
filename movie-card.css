@@ -1193,6 +1193,16 @@ body {
     font-size: calc(1.5vw + 35px);
     line-height: 100%;
 }
+@media(max-width:426px){
+    .all-movie-card-trailer-films h4{
+        color: #FFFFFF;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 900;
+        font-size: calc(1.5vw + 35px);
+        text-align: center;
+        line-height: 100%;
+}
+}
 .link-all-movie-card-trailer-films {
     display: flex;
     align-items: center;
