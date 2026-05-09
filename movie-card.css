@@ -1258,3 +1258,21 @@ body {
 .link-all-movie-card-trailer-films img {
     width: 26px;
 }
+.movie-card-trailer-films-information{
+    display: flex;
+    flex-direction: column;
+    gap: calc(1.3vw + 0.8px);
+}
+.movie-card-trailer-films-information-title-img{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 33px;
+}
+.movie-card-trailer-films-information-title-img h5{
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 900;
+    font-size: calc(1.25vw + 21px);
+    line-height: 100%;
+}
