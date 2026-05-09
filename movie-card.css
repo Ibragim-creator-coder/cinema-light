@@ -1298,7 +1298,14 @@ body {
     border-radius: 10px;
     background-color: #151A26;
 }
+.movie-card-trailer-films-information-like-dislike img{
+    width: calc(0.81vw + 10.4px);
+    height: calc(0.81vw + 10.4px);
+    border-radius: 10px;
+    background-color: #151A26;
+}
 
 .movie-card-trailer-films-information-like-dislike .dislike{
+    
     padding-top: 17px;
 }
