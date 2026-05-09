@@ -1173,8 +1173,18 @@ body {
 }
 .all-movie-card-trailer-films{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-top: calc(1.68vw + 18.6px);
+}
+@media(max-width:426px){
+    .all-movie-card-trailer-films{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+}
 }
 .all-movie-card-trailer-films h4{
     color: #FFFFFF;
