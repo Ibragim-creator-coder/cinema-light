@@ -1263,6 +1263,12 @@ body {
     flex-direction: column;
     gap: calc(1.3vw + 0.8px);
 }
+.all-movie-card-trailer-films-information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 .movie-card-trailer-films-information-title-img{
     display: flex;
     flex-direction: row;
