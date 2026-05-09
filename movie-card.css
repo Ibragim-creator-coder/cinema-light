@@ -1282,9 +1282,19 @@ body {
     font-size: calc(1.25vw + 21px);
     line-height: 100%;
 }
+
 .movie-card-trailer-films-information-buttons{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 8px;
+}
+.movie-card-trailer-films-information-like-dislike{
+    width: calc(10.5vw + 124.4px);
+    height: 58px;
+    border-radius: 10px;
+    background-color: #151A26;
+}
+.movie-card-trailer-films-information-like-dislike .dislike{
+    padding-top: 17px;
 }
