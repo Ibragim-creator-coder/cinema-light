@@ -1210,7 +1210,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: calc(1.68vw + 18.6px);
-    padding-bottom: calc();
+    padding-bottom: calc(3.81vw + 5.8px);
 }
 @media(max-width:426px){
     .all-movie-card-trailer-films{
