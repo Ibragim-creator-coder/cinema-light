@@ -1282,7 +1282,10 @@ body {
     font-size: calc(1.25vw + 21px);
     line-height: 100%;
 }
-
+.movie-card-trailer-films-information-title-img img{
+    width: calc(3.75vw + 107px) !important;
+    height: calc(0.3vw + 9.8px) !important;
+}
 .movie-card-trailer-films-information-buttons{
     display: flex;
     flex-direction: row;
