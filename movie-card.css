@@ -1018,6 +1018,13 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+@media(max-width:426px) {
+    .all-main-roles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+}
 
 .all-main-roles h3 {
     color: #FFFFFF;
