@@ -618,6 +618,7 @@ header nav ul li a {
     opacity: 0;
     transition: opacity 0.3s ease;
     pointer-events: none;
+    border-radius: 10px;
     /* чтобы ховер работал нормально */
 }
 
