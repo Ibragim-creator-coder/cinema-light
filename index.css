@@ -953,9 +953,7 @@ iframe {
     background: none;
     width: 35px;
     cursor: pointer;
-    padding-top: calc(50vw - 100px);
-    padding-left: calc(37vw - 70px);
-    padding-right: calc(38vw - 70px);
+
 }
 
 .counter {
