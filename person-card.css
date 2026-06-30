@@ -1,0 +1,3452 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
+}
+
+body {
+    background-color: #1E2538;
+    background-repeat: no-repeat;
+}
+header {
+    width: 100%;
+    padding-left: calc(14.3vw - 32.02px);
+    padding-top: calc(1.27vw + 5.5px);
+    padding-right: calc(14.4vw - 32.5px);
+    padding-bottom: calc(1.6vw + 18.8px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+@media (max-width: 1366px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width:868px) {
+    header {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 426px) {
+    header {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+header .menu {
+    display: none;
+    width: 28.55769157409668px;
+    cursor: pointer;
+}
+
+@media (max-width: 869px) {
+    header .menu {
+        display: block;
+    }
+}
+
+@media (max-width: 426px) {
+    header .menu {
+        display: block;
+    }
+}
+
+.user-gateway1 {
+    display: none;
+    align-items: center;
+    gap: 12px;
+}
+
+@media (max-width:1366px) {
+    .user-gateway1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:1000px) {
+    .user-gateway1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.user-gateway1 .search-btn1 {
+    display: none;
+    width: calc(1.7vw + 21.02px);
+    height: calc(1.6vw + 19.8px);
+    border-radius: calc(0.3vw + 3.5px);
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.user-gateway1 .search-btn1 img {
+    width: calc(0.2vw + 9.8px);
+}
+
+@media (max-width:1366px) {
+    .user-gateway1 .search-btn1 {
+        display: block;
+        width: calc(1.7vw + 21.02px);
+        height: calc(1.6vw + 19.8px);
+        border-radius: calc(0.3vw + 3.5px);
+        border: 1px solid #FFFFFF;
+        cursor: pointer;
+    }
+
+    .user-gateway1 .search-btn1 img {
+        width: calc(0.2vw + 9.8px);
+        cursor: pointer;
+
+    }
+}
+
+@media (max-width:1000px) {
+    .user-gateway1 .search-btn1 {
+        display: block;
+        width: calc(1.7vw + 21.02px);
+        height: calc(1.6vw + 19.8px);
+        border-radius: calc(0.3vw + 3.5px);
+        border: 1px solid #FFFFFF;
+        cursor: pointer;
+    }
+
+    .user-gateway1 .search-btn1 img {
+        width: calc(0.2vw + 9.8px);
+        cursor: pointer;
+
+    }
+}
+
+.user-gateway1 .logo1 {
+    display: none;
+    cursor: pointer;
+    width: calc(2.3vw + 84.02px);
+}
+
+@media (max-width:1366px) {
+    .user-gateway1 .logo1 {
+        display: block;
+        cursor: pointer;
+        width: calc(2.3vw + 84.02px);
+    }
+}
+
+@media (max-width:1000px) {
+    .user-gateway1 .logo1 {
+        display: block;
+        cursor: pointer;
+        width: calc(2.3vw + 84.02px);
+    }
+}
+
+.user-gateway1 .entrance-btn1 {
+    display: none;
+    width: calc(4.8vw + 45.4px);
+    height: calc(1.7vw + 19.5px);
+    border-radius: calc(0.3vw + 3.5px);
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 0px #4871FFCC;
+    background-color: #3657CB;
+    border: none;
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: calc(0.3vw + 9.5px);
+    color: #FFFFFF;
+}
+
+@media (max-width:1366px) {
+    .user-gateway1 .entrance-btn1 {
+        display: block;
+        width: calc(4.8vw + 45.4px);
+        height: calc(1.7vw + 19.5px);
+        border-radius: calc(0.3vw + 3.5px);
+        cursor: pointer;
+        box-shadow: 0px 0px 15px 0px #4871FFCC;
+        background-color: #3657CB;
+        border: none;
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 700;
+        font-size: calc(0.3vw + 9.5px);
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width:1000px) {
+    .user-gateway1 .entrance-btn1 {
+        display: block;
+        width: calc(4.8vw + 45.4px);
+        height: calc(1.7vw + 19.5px);
+        border-radius: calc(0.3vw + 3.5px);
+        cursor: pointer;
+        box-shadow: 0px 0px 15px 0px #4871FFCC;
+        background-color: #3657CB;
+        border: none;
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 700;
+        font-size: calc(0.3vw + 9.5px);
+        color: #FFFFFF;
+    }
+}
+
+header .logo2 {
+    cursor: pointer;
+    width: calc(2.3vw + 84.02px);
+}
+
+@media (max-width:1366px) {
+    header .logo2 {
+        display: none;
+    }
+}
+
+@media (max-width:1000px) {
+    header .logo2 {
+        display: none;
+    }
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width:1366px) {
+    header nav ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+
+    header nav ul li a {
+        width: 100%;
+    }
+}
+
+@media (max-width:1000px) {
+    header nav ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width:869px) {
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width:426px) {
+    nav {
+        display: none;
+    }
+}
+
+header nav ul li {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.user-gateway2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+@media (max-width:1366px) {
+    .user-gateway2 {
+        display: none;
+    }
+}
+
+.user-gateway2 .search-btn2 {
+    width: calc(1.7vw + 21.02px);
+    height: calc(1.6vw + 19.8px);
+    border-radius: calc(0.3vw + 3.5px);
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+@media (max-width:1366px) {
+    .search-btn2 {
+        display: none;
+    }
+}
+
+@media (max-width:1000px) {
+    .search-btn2 {
+        display: none;
+    }
+}
+
+.user-gateway2 .search-btn2 img {
+    width: calc(0.2vw + 9.8px);
+
+}
+
+.user-gateway2 .entrance-btn2 {
+    width: calc(4.8vw + 45.4px);
+    height: calc(1.7vw + 19.5px);
+    border-radius: calc(0.3vw + 3.5px);
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 0px #4871FFCC;
+    background-color: #3657CB;
+    border: none;
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: calc(0.3vw + 9.5px);
+    color: #FFFFFF;
+}
+
+@media (max-width:1366px) {
+    .entrance-btn2 {
+        display: none;
+    }
+}
+
+@media (max-width:1000px) {
+    .entrance-btn2 {
+        display: none;
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding-left: calc(14.3vw - 32.02px);
+    padding-right: calc(14.4vw - 32.5px);
+}
+.person-card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding-top: calc(3.2vw + 18.6px);
+}
+@media (max-width:1001px) {
+    .person-card-info{
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        padding-top: calc(3.2vw + 18.6px);
+}
+}
+@media (max-width:849px) {
+    .person-card-info{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: calc(3.2vw + 18.6px);
+}
+}
+
+.person-card-leonardo-dicaprio{
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+}
+@media (max-width:1001px) {
+    .person-card-leonardo-dicaprio{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+}
+}
+@media (max-width:769px) {
+    .person-card-leonardo-dicaprio{
+        display: flex;
+        flex-direction: row;
+        gap: 17px;
+}
+}
+.person-card-leonardo-dicaprio .leo-img{
+    width: calc(10.4vw + 197.6px);
+    height: calc(15.6vw + 296.4px);
+    border-radius: 10px;
+}
+@media (max-width:1264px) {
+    .person-card-leonardo-dicaprio .leo-img{
+        display: none;
+        width: calc(10.4vw + 197.6px);
+        height: calc(15.6vw + 296.4px);
+        border-radius: 10px;
+}
+}
+.person-card-leonardo-dicaprio-copy{
+    display: none;
+}
+@media (max-width:1264px) {
+    .person-card-leonardo-dicaprio-copy{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media (max-width:849px) {
+    .person-card-leonardo-dicaprio-copy{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.person-card-leonardo-dicaprio-info-pages-2 .person-card-leonardo-dicaprio-info-pages-rows-2 {
+    display: none;
+    gap: 10px;
+    list-style: none;
+}
+@media (max-width:849px) {
+    .person-card-leonardo-dicaprio-info-pages-2 .person-card-leonardo-dicaprio-info-pages-rows-2 {
+        display: flex;
+        gap: 10px;
+        list-style: none;
+    }
+}
+.person-card-leonardo-dicaprio-info-pages-rows-2 .person-card-leonardo-dicaprio-info-page-2 a {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(67, 70, 70);
+}
+.person-card-leonardo-dicaprio-info-pages-2 .person-card-leonardo-dicaprio-info-pages-rows-2 .person-card-leonardo-dicaprio-info-page-2 a:hover {
+    color: rgb(255, 255, 255);
+}
+.person-card-leonardo-dicaprio-copy h1 {
+    display: none;
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 900;
+    font-size: calc(2vw + 25.4px);
+    line-height: 100%;
+    color: #FFFFFF;
+}
+@media (max-width:849px) {
+    .person-card-leonardo-dicaprio-copy h1 {
+        display:flex;
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 900;
+        font-size: calc(2vw + 25.4px);
+        line-height: 100%;
+        color: #FFFFFF;
+}
+}
+.person-card-leonardo-dicaprio-copy h2 {
+    display: none;
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: calc(0.3vw + 19px);
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+@media (max-width:849px) {
+    .person-card-leonardo-dicaprio-copy h2 {
+        display: flex;
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 500;
+        font-size: calc(0.3vw + 19px);
+        line-height: 100%;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+}
+}
+.person-card-leonardo-dicaprio-copy img{
+    width: calc(10.4vw + 197.6px);
+    height: calc(15.6vw + 296.4px);
+    border-radius: 10px;
+}
+.leonardo-dicaprio-photo-apps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-photo-apps{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 14px;
+}
+}
+.person-card-leonardo-dicaprio-apps-copy-3{
+    display: none;
+    flex-direction: column;
+    gap: 6.5px;
+}
+@media (max-width: 849px) {
+    .person-card-leonardo-dicaprio-apps-copy-3{
+        display: flex;
+        flex-direction: column;
+        gap: 6.5px;
+}
+}
+.person-card-leonardo-dicaprio-apps-copy-3 a{
+    width: 42px;
+    height: 42px;
+    background-color: #1E2538;
+    border-radius: 50%;
+    border: solid#2B354E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.person-card-leonardo-dicaprio-apps-copy-3 img{
+    width: 22px;
+    height: 18px;
+}
+.heart-person-card-container-copy {
+    display: flex;
+    align-items: center;
+    gap: 18.92px;
+    padding-top: 16.32px;
+}
+.heart-person-card-copy {
+    width: calc(0.3vw + 51.8px);
+    height:calc(0.3vw + 51.8px) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #151A26;
+    cursor: pointer;
+}
+.heart-person-card-copy img{
+    width: 24px;
+    height: 24px;
+}
+.heart-person-card-container-copy span {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.tabs-copy {
+    display: none;
+    flex-direction: column;
+    gap: 28px;
+    padding-top: calc(0.9vw + 13px);
+    color: #fff;
+}
+@media (max-width: 849px) {
+    .tabs-copy {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        padding-top: calc(0.9vw + 13px);
+        color: #fff;
+}
+}
+
+.tabs-copy input {
+    display: none;
+}
+
+.tabs-header-copy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.tabs-header-copy label {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 600;
+    font-size: calc(0.2vw + 14.2px);
+    line-height: 100%;
+    color: #666;
+}
+#info-copy:checked ~ .tabs-header-copy label[for="info-copy"],
+#bio-copy:checked ~ .tabs-header-copy label[for="bio-copy"] {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 600;
+    font-size: calc(0.2vw + 14.2px);
+    line-height: 100%;
+    color: #ffffff;
+    border-bottom: 2px solid #fff;
+}
+
+.tab-content-copy {
+    display: none;
+}
+
+#info-copy:checked ~ .info-content-copy {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#bio-copy:checked ~ .bio-content-copy {
+    display: block;
+}
+
+.row-copy {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 20px;
+    align-items: end;
+}
+
+.row-copy span {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 600;
+    font-size: calc(0.3vw + 10.8px);
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.row-copy a {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: calc(0.3vw + 10.8px);
+    line-height: 100%;
+    color: rgb(255, 247, 0);
+}
+.bio-content-copy span {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 600;
+    font-size: calc(0.3vw + 10.8px);
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.person-card-leonardo-dicaprio-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media (max-width:849px) {
+    .person-card-leonardo-dicaprio-info{
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+}
+}
+.person-card-leonardo-dicaprio-info-pages .person-card-leonardo-dicaprio-info-pages-rows {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+@media (max-width: 869px) {
+    nav:not(.person-card-leonardo-dicaprio-info-pages) {
+        display: none;
+    }
+
+    .person-card-leonardo-dicaprio-info-pages{
+        display: flex;
+    }
+}
+
+.person-card-leonardo-dicaprio-info-pages-rows .person-card-leonardo-dicaprio-info-page a {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(67, 70, 70);
+}
+.person-card-leonardo-dicaprio-info-pages .person-card-leonardo-dicaprio-info-pages-rows .person-card-leonardo-dicaprio-info-page a:hover {
+    color: rgb(255, 255, 255);
+}
+.person-card-leonardo-dicaprio-info h1 {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 900;
+    font-size: calc(2vw + 25.4px);
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.person-card-leonardo-dicaprio-name-apps{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+.person-card-leonardo-dicaprio-name-apps h2 {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: calc(0.3vw + 19px);
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.person-card-leonardo-dicaprio-apps{
+    display: flex;
+    flex-direction: row;
+    gap: 6.5px;
+}
+.person-card-leonardo-dicaprio-apps a{
+    width: 26px;
+    height: 26px;
+    background-color: #1E2538;
+    border-radius: 50%;
+    border: solid#2B354E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.person-card-leonardo-dicaprio-apps img{
+    width: 14px;
+    height: 10px;
+}
+@media (max-width:1264px) {
+    .person-card-leonardo-dicaprio-apps{
+        display: none;
+        flex-direction: row;
+        gap: 6.5px;
+}
+}
+.person-card-leonardo-dicaprio-apps-copy{
+    display: none;
+    flex-direction: row;
+    gap: 6.5px;
+}
+.person-card-leonardo-dicaprio-apps-copy a{
+    width: 42px;
+    height: 42px;
+    background-color: #1E2538;
+    border-radius: 50%;
+    border: solid#2B354E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.person-card-leonardo-dicaprio-apps-copy img{
+    width: 22px;
+    height: 18px;
+}
+@media (max-width:1264px) {
+    .person-card-leonardo-dicaprio-apps-copy{
+        display: flex;
+        flex-direction: row;
+        gap: 6.5px;
+}
+}
+@media (max-width:893px) {
+    .person-card-leonardo-dicaprio-apps-copy{
+        display: none;
+        flex-direction: row;
+        gap: 6.5px;
+}
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-top: calc(0.9vw + 13px);
+    color: #fff;
+}
+
+.tabs input {
+    display: none;
+}
+
+.tabs-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.tabs-header label {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 600;
+    font-size: calc(0.2vw + 14.2px);
+    line-height: 100%;
+    color: #666;
+}
+.person-card-leonardo-dicaprio-apps-copy-2{
+    display: none;
+    flex-direction: row;
+    gap: 6.5px;
+}
+@media (max-width: 893px) {
+    .person-card-leonardo-dicaprio-apps-copy-2{
+        display: flex;
+        flex-direction: row;
+        gap: 6.5px;
+}
+}
+.person-card-leonardo-dicaprio-apps-copy-2 a{
+    width: 42px;
+    height: 42px;
+    background-color: #1E2538;
+    border-radius: 50%;
+    border: solid#2B354E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.person-card-leonardo-dicaprio-apps-copy-2 img{
+    width: 22px;
+    height: 18px;
+}
+#info:checked ~ .tabs-header label[for="info"],
+#bio:checked ~ .tabs-header label[for="bio"] {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 600;
+    font-size: calc(0.2vw + 14.2px);
+    line-height: 100%;
+    color: #ffffff;
+    border-bottom: 2px solid #fff;
+}
+
+.tab-content {
+    display: none;
+}
+
+#info:checked ~ .info-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#bio:checked ~ .bio-content {
+    display: block;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 20px;
+    align-items: end;
+}
+
+.row span {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 600;
+    font-size: calc(0.3vw + 10.8px);
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.row a {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: calc(0.3vw + 10.8px);
+    line-height: 100%;
+    color: rgb(255, 247, 0);
+}
+.bio-content span {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 600;
+    font-size: calc(0.3vw + 10.8px);
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.heart-person-card-container {
+    display: flex;
+    align-items: center;
+    gap: 18.92px;
+    padding-top: 17px;
+}
+@media (max-width:1264px) {
+    .heart-person-card-container {
+        display: none;
+        align-items: center;
+        gap: 18.92px;
+        padding-top: 17px;
+}
+}
+.heart-person-card {
+    width: calc(0.3vw + 51.8px);
+    height:calc(0.3vw + 51.8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #151A26;
+    cursor: pointer;
+}
+.heart-person-card img{
+    width: 24px;
+    height: 24px;
+}
+.heart-person-card-container span {
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.leonardo-dicaprio-awards{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-awards{
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+}
+}
+@media (max-width:769px) {
+    .leonardo-dicaprio-awards{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+}
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-awards{
+        display: flex;
+        flex-direction: column;
+        gap: 20.62px;
+}
+}
+.link-leonardo-dicaprio-awards {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+}
+
+@media (max-width:426px) {
+    .link-leonardo-dicaprio-awards {
+        display: none;
+        align-self: flex-end;
+        align-items: center;
+        font-size: 18px;
+        cursor: pointer;
+        justify-content: space-between;
+        gap: 20px;
+        text-decoration: none;
+}
+}
+.link-leonardo-dicaprio-awards span {
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+}
+@media (max-width:1001px) {
+    .link-leonardo-dicaprio-awards span {
+        color: #FFFFFF;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+}   
+}
+.link-leonardo-dicaprio-awards img {
+    width: 26px;
+}
+.leonardo-dicaprio-awards-nomonies{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14.59px;
+}
+@media(max-width: 1810px){
+    .leonardo-dicaprio-awards-nomonies{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 17.49px;
+}
+}
+@media(max-width: 990px){
+    .leonardo-dicaprio-awards-nomonies{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 13.76px;
+}
+}
+.leonardo-dicaprio-winners-catagories-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #3657CB4D;
+    border-radius: 10px;
+    align-items: center;
+    gap: 37.15px;
+    padding-top: 21.72px;
+    padding-left: 54.15px;
+    padding-bottom: 20.73px;
+    padding-right: 53.56px;
+}
+@media(max-width: 1810px){
+    .leonardo-dicaprio-winners-catagories-card{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: #3657CB4D;
+        border-radius: 10px;
+        align-items: center;
+        gap: 45.87px;
+        padding-top: 26.03px;
+        padding-left: 64.9px;
+        padding-bottom: 24.85px;
+        padding-right: 94.8px;
+}
+}
+
+@media(max-width: 990px){
+    .leonardo-dicaprio-winners-catagories-card{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: #3657CB4D;
+        border-radius: 10px;
+        align-items: center;
+        gap: 31.07px;
+        padding-top: 23.01px;
+        padding-left: 57.37px;
+        padding-bottom: 21.97px;
+        padding-right: 65.99px;
+}
+}
+.information-leonardo-dicaprio-winners-catagories{
+    display: flex;
+    flex-direction: column;
+    gap: 11.5px;
+}
+.information-leonardo-dicaprio-winners-catagories h3{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;    
+}
+.information-leonardo-dicaprio-winners-catagories h3 p{
+    color: #F2F60F;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%; 
+}
+.information-leonardo-dicaprio-winners-catagories span{
+    color: #FFFFFFB2;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%; 
+}
+.link-leonardo-dicaprio-awards-copy {
+    display: none;
+    align-self: flex-end;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+}
+@media (max-width:426px) {
+    .link-leonardo-dicaprio-awards-copy {
+        display: flex;
+        align-self: center;
+        align-items: center;
+        font-size: 18px;
+        cursor: pointer;
+        justify-content: space-between;
+        gap: 20px;
+        text-decoration: none;
+}
+}
+.link-leonardo-dicaprio-awards-copy span {
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+}
+.link-leonardo-dicaprio-awards-copy img {
+    width: 26px;
+}
+
+.leonardo-dicaprio-the-best-films{
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+    padding-top: calc(4.9vw + 12.2px);
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-the-best-films{
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        padding-top: calc(4.9vw + 12.2px);
+}
+}
+@media (max-width:769px) {
+    .leonardo-dicaprio-the-best-films{
+        display: flex;
+        flex-direction: column;
+        gap: 29px;
+        padding-top: calc(4.9vw + 12.2px);
+}
+}
+
+.leonardo-dicaprio-the-best-films h3 {
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 900;
+    font-size: calc(2.3vw + 20.6px);
+    line-height: 100%;
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-the-best-films h3 {
+        color: #FFFFFF;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 900;
+        font-size: calc(2.3vw + 20.6px);
+        line-height: 100%;
+        text-align: center;
+}
+}
+.leonardo-dicaprio-the-best-films-cards{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.leonardo-dicaprio-the-best-films-cards a {
+    position: relative;
+    display: inline-block;
+}
+
+.leonardo-dicaprio-the-best-films-cards img {
+    width: 100%;
+    border-radius: 10px;
+}
+.leonardo-dicaprio-the-best-films-cards a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #3657CBA6;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    border-radius: 10px;
+    /* чтобы ховер работал нормально */
+}
+
+.leonardo-dicaprio-the-best-films-cards a:hover::after {
+    opacity: 1;
+}
+.leonardo-dicaprio-the-best-films .leonardo-dicaprio-the-best-films-cards h3 {
+    color: rgb(255, 241, 241);
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: calc(0.18vw + 14.4px);
+    line-height: 100%;
+}
+.leonardo-dicaprio-the-best-films-cards p{
+    color: #F2F60F;
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 400;
+    font-size: calc(0.18vw + 11.4px);
+    line-height: 100%;
+}
+.leonardo-dicaprio-the-best-films-cards .leonardo-dicaprio-the-best-films-cards-raiting {
+    width: calc(1.4vw + 33.66px);
+    height: calc(0.76vw + 18.51px);
+    border-radius: 5px;
+    background: #89CB36;
+    padding: 5px;
+    position: absolute;
+    top: calc(0.2vw + 7.7px);
+    right: calc(0.2vw + 7.7px);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leonardo-dicaprio-the-best-films-cards .leonardo-dicaprio-the-best-films-cards-raiting span {
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: calc(0.18vw + 11.4px)
+}
+.leonardo-dicaprio-last-news{
+    display: flex;
+    flex-direction: column;
+    gap: 79px;
+    padding-top: calc(1.9vw + 43.8px);
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-last-news{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: calc(1.9vw + 43.8px);
+}
+}
+@media (max-width:769px) {
+    .leonardo-dicaprio-last-news{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding-top: calc(1.9vw + 43.8px);
+}
+}
+
+@media (max-width:426px) {
+    .leonardo-dicaprio-last-news{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        padding-top: calc(1.9vw + 43.8px);
+}
+}
+
+.all-leonardo-dicaprio-last-news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+@media(max-width:426px){
+    .all-leonardo-dicaprio-last-news{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+}
+}
+
+.all-leonardo-dicaprio-last-news h3 {
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 900;
+    font-size: calc(2.3vw + 20.6px);
+    line-height: 100%;
+}
+@media(max-width:426px){
+    .all-leonardo-dicaprio-last-news h3 {
+        color: #FFFFFF;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 900;
+        font-size: calc(2.3vw + 20.6px);
+        line-height: 100%;
+        text-align: center;
+}
+}
+
+.link-leonardo-dicaprio-last-news {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+}
+@media(max-width:426px){
+    .link-leonardo-dicaprio-last-news {
+        display: flex;
+        align-self: center;
+        align-items: center;
+        font-size: 18px;
+        cursor: pointer;
+        justify-content: space-between;
+        gap: 20px;
+        text-decoration: none;
+}
+}
+.link-leonardo-dicaprio-last-news span {
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+}
+@media (max-width:1001px) {
+    .link-leonardo-dicaprio-last-news span {
+        color: #FFFFFF;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+}   
+}
+.link-leonardo-dicaprio-last-news img {
+    width: 26px;
+}
+.slider {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+
+/* LEFT BIG */
+
+.slide {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.slide img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.slide.active {
+  display: block;
+  position: relative;
+}
+.slide.active .date{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.panda{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: absolute;
+    top: calc(1.5vw + 7.4px);
+    left: calc(0.8vw + 16.2px);
+}
+.views{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    gap: 7px;
+    text-decoration: none;
+}
+.views span{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.views img{
+    width: 22px !important;
+}
+@media(max-width:427px){
+    .views span{
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        cursor: pointer;
+        color: #FFFFFF;
+}
+}
+.message{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    cursor: pointer;
+}
+.message span{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.message img{
+    width: 16px;
+}
+.sentances{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(23.3vw + 93.2px);
+    left: calc(0.8vw + 16.4px);
+}
+.sentances h4{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 900;
+    font-size: calc(1.5vw + 15px);
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+@media(max-width:1001px){
+    .sentances h6{
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        cursor: pointer;
+        color: #FFFFFF;
+}
+}
+@media(max-width:769px){
+    .sentances h6{
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        cursor: pointer;
+        color: #FFFFFF;
+}
+}
+@media(max-width:478px){
+    .sentances h6{
+        font-family: 'Qanelas', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        cursor: pointer;
+        color: #FFFFFF;
+}
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+/* RIGHT SIDE */
+.slider-side {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+@media(max-width:1001px){
+    .slider-side {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+}
+}
+.side-item{
+    position: relative;
+}
+.side-item span{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: calc(0.1vw + 11.4px);
+    cursor: pointer;
+    color: #FFFFFF;
+    position: absolute;
+    top: calc(0.25vw + 6.2px);
+    left: calc(0.3vw + 12px);
+}
+.side-item p{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 900;
+    font-size: calc(0.3vw + 8px);
+    cursor: pointer;
+    color: #FFFFFF;
+    position: absolute;
+    top: calc(2.1vw + 77px);
+    left: calc(0.3vw + 12px);
+}
+
+.side-item{
+  cursor: pointer;
+}
+.side-item{
+    position: relative;
+}
+
+
+.side-item img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  border-radius: 10px;
+}
+@media (max-width: 1351px) {
+  .slider {
+    grid-template-columns: 1fr; /* одна колонка */
+  }
+
+
+  .slider-side {
+    flex-direction: row;       /* карточки в ряд */ 
+    gap: 10px;
+    padding-bottom: 5px;
+    overflow-x: auto;
+}
+.side-item .image-wrapper a{
+    width: 100%;
+    height: 100%;
+}
+  .side-item img {
+    width: 257px;
+  }
+}
+.leonardo-dicaprio-photos{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    padding-top: calc(3.7vw + 21.1px);
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-photos{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding-top: calc(3.7vw + 21.1px);
+}
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-photos{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: calc(3.7vw + 21.1px);
+}
+}
+
+.all-leonardo-dicaprio-photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(max-width:426px){
+    .all-leonardo-dicaprio-photos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+}
+}
+.all-leonardo-dicaprio-photos h4{
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 900;
+    font-size: calc(2.3vw + 20.6px);
+    line-height: 100%;
+}
+@media(max-width:426px){
+    .all-leonardo-dicaprio-photos h4{
+        color: #FFFFFF;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 900;
+        font-size: calc(2.3vw + 20.6px);
+        text-align: center;
+        line-height: 100%;
+}
+}
+.link-all-leonardo-dicaprio-photos{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+}
+.link-all-leonardo-dicaprio-photos span{
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+}
+@media (max-width: 1001px) {
+    .link-all-leonardo-dicaprio-photos span {
+        color: #FFFFFF;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+    }
+}
+.link-all-leonardo-dicaprio-photos img{
+    width: 26px;
+}
+.leonardo-dicaprio-photos-rows{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+@media (max-width: 1001px) {
+    .leonardo-dicaprio-photos-rows{
+        display: flex;
+        flex-direction: column;
+        gap: 37px;
+}
+}
+@media (max-width: 769px) {
+    .leonardo-dicaprio-photos-rows{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+}
+}
+@media (max-width: 426px) {
+    .leonardo-dicaprio-photos-rows{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+}
+}
+
+.leonardo-dicaprio-photos-rows p{
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 600;
+    font-size: calc(0.4vw + 16.6px);
+    line-height: 100%;
+}
+
+
+
+/* Контейнер-сетка */
+.leonardo-dicaprio-photos-parent {
+    display: grid;
+    /* Создаем 3 колонки одинаковой ширины */
+    grid-template-columns: repeat(3, 1fr);
+    /* Расстояние между картинками (на скриншоте примерно 15-20px) */
+    gap: 16px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.leonardo-dicaprio-image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+.leonardo-dicaprio-image-wrapper::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #3657CBA6;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    border-radius: 10px;
+    /* чтобы ховер работал нормально */
+}
+
+.leonardo-dicaprio-image-wrapper:hover::after {
+    opacity: 1;
+}
+
+/* Общие стили для блоков с картинками */
+.leonardo-dicaprio-photos-parent > div {
+    position: relative;
+    border-radius: 8px; /* Скругленные углы */
+    overflow: hidden;   /* Чтобы картинки не вылезали за скругления */
+}
+
+/* Стилизация самих изображений, чтобы они правильно заполняли блоки */
+.leonardo-dicaprio-photos-parent .leonardo-dicaprio-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Картинка заполняет блок без искажений */
+    display: block;
+}
+
+/* --- Специфичное позиционирование блоков (если нужно точное совпадение по размерам) --- */
+
+/* Например, если нижняя центральная картинка с боксом должна быть шире (занимать 2 колонки) */
+/* На вашем скрине она выглядит крупнее. Если нужно обычную сетку 3х2 — удалите это свойство */
+.div5 {
+    grid-column: span 1; 
+}
+
+/* --- Стилизация последнего блока с "+196" (Без синего цвета!) --- */
+.div6 {
+    position: relative;
+    cursor: pointer;
+}
+
+.leonardo-dicaprio-filmography-rating{
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    padding-top: calc(3.8vw + 15.8px);   
+}
+@media (max-width: 1001px) {
+    .leonardo-dicaprio-filmography-rating{
+        display: flex;
+        flex-direction: column;
+        gap: 33px;
+        padding-top: calc(3.8vw + 15.8px);   
+}
+}
+@media (max-width: 769px) {
+    .leonardo-dicaprio-filmography-rating{
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+        padding-top: calc(3.8vw + 15.8px);   
+}
+}
+@media (max-width: 426px) {
+    .leonardo-dicaprio-filmography-rating{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding-top: calc(3.8vw + 15.8px);   
+}
+}
+.all-leonardo-dicaprio-filmography-rating{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 21px;
+}
+@media (max-width:426px) {
+    .all-leonardo-dicaprio-filmography-rating{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 22px;
+}
+}
+.all-leonardo-dicaprio-filmography-rating h4{
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 900;
+    font-size: calc(2.3vw + 20.6px);
+    line-height: 100%;   
+}
+.filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: end;
+    gap: 10px;
+}
+
+
+.dropdown,
+.dropdown-all-works {
+    position: relative;
+}
+
+
+.dropdown button {
+    width: 102px;
+    height: 53px;
+    background: #192235;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 600;
+    font-size: calc(0.1vw + 11.6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.dropdown-all-works button {
+    width: 131px;
+    height: 53px;
+    background: #192235;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 600;
+    font-size: calc(0.1vw + 11.6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+@media (max-width:399px) {
+    .dropdown-all-works button {
+        width: 125px;
+        height: 53px;
+        background: #192235;
+        border: none;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 600;
+        font-size: calc(0.1vw + 11.6px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        cursor: pointer;
+}
+}
+
+.dropdown img,
+.dropdown-all-works img {
+    width: 6px;
+    height: 4px;
+}
+
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 58px;
+    position: absolute;
+    left: 0;
+
+    width: 102px;
+    background: #192235;
+    border-radius: 10px;
+
+    overflow: hidden;
+
+
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 0.3s;
+}
+
+.dropdown-menu-all-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 58px;
+    position: absolute;
+    left: 0;
+
+    width: 131px;
+    background: #192235;
+    border-radius: 14px;
+
+    overflow: hidden;
+
+
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 0.3s;
+}
+
+
+.dropdown-menu a,
+.dropdown-menu-all-works a{
+    display: block;
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 600;
+    font-size: calc(0.1vw + 11.6px);
+    padding: 15px 20px;
+    height: 53px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.dropdown-menu a:hover {
+    background: #273449;
+}
+
+.dropdown-menu-all-works a:hover {
+    background: #273449;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.dropdown-all-works:hover .dropdown-menu-all-works {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.leonardo-dicaprio-line-chart{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-line-chart{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+}
+}
+@media (max-width:769px) {
+    .leonardo-dicaprio-line-chart{
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+}
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-line-chart{
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+}
+}
+.leonardo-dicaprio-line-chart span{
+    display: flex;
+    align-self: flex-end;
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 500;
+    font-size: calc(0.2vw + 11.2px);
+    line-height: 100%;
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-line-chart span{
+        display: flex;
+        align-self: flex-start;
+        color: #FFFFFF;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 500;
+        font-size: calc(0.2vw + 11.2px);
+        line-height: 100%;
+}
+}
+canvas {
+    width: 100%;
+    height: 500px;
+}
+.leonardo-dicaprio-films{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    padding-top: calc(2.4vw + 33.2px);
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-films{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: calc(2.4vw + 33.2px);
+}
+}
+
+@media (max-width:769px) {
+    .leonardo-dicaprio-films{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: calc(2.4vw + 33.2px);
+}
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-films{
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+        padding-top: calc(2.4vw + 33.2px);
+}
+}
+
+.all-leonardo-dicaprio-films{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 17px;
+}
+.all-leonardo-dicaprio-films h5{
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 900;
+    font-size: calc(2.3vw + 20.6px);
+    line-height: 100%;
+}
+.leonardo-dicaprio-films-filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: end;
+    gap: 13.77px;
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-films-filters {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-self: end;
+        gap: 15px;
+}
+}
+.leonardo-dicaprio-films-dropdown {
+    position: relative;
+}
+
+.leonardo-dicaprio-films-dropdown-year {
+    position: relative;
+}
+
+.leonardo-dicaprio-films-dropdown button{
+    width: calc(2.4vw + 94.3px);
+    height: calc(1.2vw + 49px);
+    background: #192235;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 600;
+    font-size: calc(0.1vw + 11.6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-films-dropdown button{
+        width: calc(2.4vw + 94.3px);
+        height: calc(1.2vw + 49px);
+        background: #192235;
+        border: none;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 600;
+        font-size: calc(0.1vw + 11.6px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        cursor: pointer;
+}
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-films-dropdown button{
+        width:calc(2.4vw + 94.3px);
+        height: calc(1.2vw + 49px);
+        background: #192235;
+        border: none;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 600;
+        font-size: calc(0.1vw + 11.6px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        cursor: pointer;
+}
+}
+.leonardo-dicaprio-films-dropdown-year button{
+    width: calc(2.6vw + 93.4px);
+    height: calc(1.2vw + 49px);
+    background: #192235;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 600;
+    font-size: calc(0.1vw + 11.6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-films-dropdown-year button{
+        width: calc(2.6vw + 93.4px);
+        height: calc(1.2vw + 49px);
+        background: #192235;
+        border: none;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 600;
+        font-size: calc(0.1vw + 11.6px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        cursor: pointer;
+}
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-films-dropdown-year button{
+        width: calc(2.6vw + 93.4px);
+        height: calc(1.2vw + 49px);
+        background: #192235;
+        border: none;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 600;
+        font-size: calc(0.1vw + 11.6px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        cursor: pointer;
+}
+}
+.leonardo-dicaprio-films-dropdown img {
+    width: 6px;
+    height: 4px;
+}
+
+.leonardo-dicaprio-films-dropdown-year img {
+    width: 6px;
+    height: 4px;
+}
+
+
+.leonardo-dicaprio-films-dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 58px;
+    position: absolute;
+    left: 0;
+
+    width: calc(2.4vw + 94.3px);
+    background: #192235;
+    border-radius: 10px;
+
+    overflow: hidden;
+
+
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 0.3s;
+}
+
+.leonardo-dicaprio-films-dropdown-year-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 58px;
+    position: absolute;
+    left: 0;
+
+    width: calc(2.6vw + 93.4px);
+    background: #192235;
+    border-radius: 10px;
+
+    overflow: hidden;
+
+
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: 0.3s;
+}
+
+
+.leonardo-dicaprio-films-dropdown:hover .leonardo-dicaprio-films-dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.leonardo-dicaprio-films-dropdown-year:hover .leonardo-dicaprio-films-dropdown-year-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.leonardo-dicaprio-films-cards-rows{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-films-cards-rows{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+}
+}
+.leonardo-dicaprio-films-cards-separate-line{
+    display: flex;
+    flex-direction: column;
+    gap: 49.18px;
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-films-cards-separate-line{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+}
+}
+.leonardo-dicaprio-films-cards-ava-info-rating-scores-button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.leonardo-dicaprio-films-cards-ava-info{
+    display: flex;
+    flex-direction: row;
+    gap: 59.65px;
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-films-cards-ava-info{
+        display: flex;
+        flex-direction: row;
+        gap: 20.98px;
+}
+}
+
+.leonardo-dicaprio-films-cards-ava-info img{
+    width: calc(3.6vw + 132.3px);
+    height: calc(4.9vw + 181.2px);
+    border-radius: 10px;
+}
+.leonardo-dicaprio-films-cards-info{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 9px;
+}
+.leonardo-dicaprio-films-cards-info h5{
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: calc(0.5vw + 15.4px);
+}
+.leonardo-dicaprio-films-cards-info .leonardo-dicaprio-films-cards-info-span-name{
+    color: #54689E;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 500;
+    font-size: calc(0.25vw + 12.2px);
+}
+.leonardo-dicaprio-films-cards-info .leonardo-dicaprio-films-cards-info-span-genre{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #F2F60F;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.12vw + 12.6px);
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-films-cards-info .leonardo-dicaprio-films-cards-info-span-genre{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        color: #F2F60F;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 400;
+        font-size: calc(0.12vw + 12.6px);
+}
+}
+.leonardo-dicaprio-films-cards-info .leonardo-dicaprio-films-cards-info-span-genre .leonardo-dicaprio-films-cards-info-span-character{
+    color: #54689E;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.12vw + 12.6px);
+}
+.leonardo-dicaprio-films-cards-separate-line{
+    border-bottom: 1px solid#3B486B;
+}
+.leonardo-dicaprio-films-cards-info .leonardo-dicaprio-rating-scores-copy{
+    display: none;
+    flex-direction: row;
+    gap: 12px;
+    padding-top: 6px;
+}
+@media (max-width:1247px) {
+    .leonardo-dicaprio-films-cards-info .leonardo-dicaprio-rating-scores-copy{
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        padding-top: 6px;
+}
+}
+
+.leonardo-dicaprio-kinoarea-imdb-rating-scores-copy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.leonardo-dicaprio-kinoarea-imdb-rating-scores-copy .leonardo-dicaprio-kinoarea-imdb-rating-scores-digits-copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 63px;
+    height: 33px;
+    background-color: #4BCB36;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+}
+@media (max-width:336px) {
+    .leonardo-dicaprio-kinoarea-imdb-rating-scores-copy .leonardo-dicaprio-kinoarea-imdb-rating-scores-digits-copy{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        height: 33px;
+        background-color: #4BCB36;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 100%;
+}
+}
+
+.leonardo-dicaprio-kinoarea-imdb-rating-scores-copy .leonardo-dicaprio-kinoarea-imdb-rating-scores-platforms-copy{
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.leonardo-dicaprio-films-cards-movie-card-copy {
+    width: calc(2.5vw + 176px);
+    height: calc(0.5vw + 61.4px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 0px #4871FFCC;
+    background-color: #3657CB;
+    border: none;
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: calc(0.1vw + 15.6px);
+    color: #FFFFFF;
+}
+
+.leonardo-dicaprio-films-cards-rating-scores-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 74px;
+}
+@media (max-width:1001px) {
+    .leonardo-dicaprio-films-cards-rating-scores-button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+}
+}
+.leonardo-dicaprio-rating-scores{
+    display: flex;
+    flex-direction: row;
+    gap: 39px;
+}
+@media (max-width:1247px) {
+    .leonardo-dicaprio-rating-scores{
+        display: none;
+        flex-direction: row;
+        gap: 12px;
+}
+}
+.leonardo-dicaprio-kinoarea-imdb-rating-scores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.leonardo-dicaprio-kinoarea-imdb-rating-scores .leonardo-dicaprio-kinoarea-imdb-rating-scores-digits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(0.8vw + 60.2px);
+    height: calc(0.4vw + 31.4px);
+    background-color: #4BCB36;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+}
+.leonardo-dicaprio-kinoarea-imdb-rating-scores .leonardo-dicaprio-kinoarea-imdb-rating-scores-platforms{
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 500;
+    font-size: 15px; 
+}
+.leonardo-dicaprio-films-cards-movie-card {
+    width: calc(2.5vw + 176px);
+    height: calc(0.5vw + 61.4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 0px #4871FFCC;
+    background-color: #3657CB;
+    border: none;
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: calc(0.1vw + 15.6px);
+    color: #FFFFFF;
+}
+.leonardo-dicaprio-kinoarea-imdb-rating-scores-copy .leonardo-dicaprio-kinoarea-imdb-rating-scores-digits-yellow-copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 63px;
+    height: 33px;
+    background-color: #89CB36;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+}
+
+@media (max-width:336px) {
+    .leonardo-dicaprio-kinoarea-imdb-rating-scores-copy .leonardo-dicaprio-kinoarea-imdb-rating-scores-digits-yellow-copy{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        height: 33px;
+        background-color: #89CB36;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 100%;
+}
+}
+.leonardo-dicaprio-kinoarea-imdb-rating-scores .leonardo-dicaprio-kinoarea-imdb-rating-scores-digits-yellow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(0.8vw + 60.2px);
+    height: calc(0.4vw + 31.4px);
+    background-color: #89CB36;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+}
+.leonardo-dicaprio-kinoarea-imdb-rating-scores-copy .leonardo-dicaprio-kinoarea-imdb-rating-scores-digits-light-copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 63px;
+    height: 33px;
+    background-color: #3BD722;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+}
+@media (max-width:336px) {
+    .leonardo-dicaprio-kinoarea-imdb-rating-scores-copy .leonardo-dicaprio-kinoarea-imdb-rating-scores-digits-light-copy{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        height: 33px;
+        background-color: #3BD722;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 100%;
+}
+}
+.leonardo-dicaprio-kinoarea-imdb-rating-scores .leonardo-dicaprio-kinoarea-imdb-rating-scores-digits-light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(0.8vw + 60.2px);
+    height: calc(0.4vw + 31.4px);
+    background-color: #3BD722;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+}
+.leonardo-dicaprio-comments-to-the-film{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: calc(1.3vw + 65.8px);
+}
+
+@media (max-width:769px) {
+    .leonardo-dicaprio-comments-to-the-film{
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+        padding-top: calc(1.3vw + 65.8px);
+}
+
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-comments-to-the-film{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding-top: calc(1.3vw + 65.8px);
+}
+}
+.leonardo-dicaprio-comments-to-the-film-black-wall{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    background-color: #191E2E;
+    border-radius: 10px;
+    padding-left: calc(1.6vw + 14.6px);
+    padding-top: calc(1.9vw + 12.684px);
+    padding-right: calc(2.5vw + 13px);
+    padding-bottom: calc(0.5vw + 38.2px);
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-comments-to-the-film-black-wall{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        background-color: #191E2E;
+        border-radius: 10px;
+        padding-left: calc(1.6vw + 14.6px);
+        padding-top: calc(1.9vw + 12.684px);
+        padding-right: calc(2.5vw + 13px);
+        padding-bottom: calc(0.5vw + 38.2px);
+}
+}
+.leonardo-dicaprio-comments-ava-info{
+    display: flex;
+    flex-direction: row;
+    gap: 25.58px;
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-comments-ava-info{
+        display: flex;
+        flex-direction: row;
+        gap: 20.58px;
+}
+}
+.leonardo-dicaprio-comments-ava-info img{
+    width: calc(1.8vw + 79.6px);
+    height: calc(1.8vw + 79.6px);
+    border-radius: 50%;
+}
+.leonardo-dicaprio-comments-info{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 7px;
+}
+.leonardo-dicaprio-comments-info h6{
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: calc(0.6vw + 18px);
+}
+.leonardo-dicaprio-comments-info .leonardo-dicaprio-comments-info-my-profile{
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 500;
+    font-size: calc(0.2vw + 13.2px);
+}
+.leonardo-dicaprio-comments-to-the-film-grey-wall{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1E2538;
+    padding-left: calc(0.6vw + 13.8px);
+    padding-top: calc(0.5vw + 12.4px);
+    padding-right: calc(0.5vw - 48.6px);
+    padding-bottom: calc(9.7vw + 101.8px);
+}
+.leonardo-dicaprio-comments-to-the-film-grey-wall .leonardo-dicaprio-comments-to-the-film-grey-wall-leave-the-comment{
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.3vw + 12.8px);
+}
+.leonardo-dicaprio-comments-to-the-film-post-comment{
+    display: flex;
+    align-self: center;
+    background-color: #F2F60F;
+    color: #151A26;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: calc(0.1vw + 14.4px);
+    border-radius: 10px;
+    padding-left: calc(-1.1vw + 58.8px);
+    padding-top: calc(0.4vw + 12.6px);
+    padding-right: calc(-1.2vw + 60px );
+    padding-bottom: calc(0.2vw + 15.2px);
+    cursor: pointer;
+}
+.leonardo-dicaprio-audience-comments-to-the-film{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    background-color: #191E2E;
+    padding-left: calc(1.5vw + 7.2px);
+    padding-top: calc(1.4vw + 19.4px);
+    padding-right: calc(1.9vw + 6.8px);
+    padding-bottom: calc(1.5vw + 15px);
+    border-radius: 10px;
+}
+@media (max-width:528px) {
+    .leonardo-dicaprio-audience-comments-to-the-film{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        background-color: #191E2E;
+        padding-left: calc(1.5vw + 7.2px);
+        padding-top: calc(1.4vw + 19.4px);
+        padding-right: calc(1.9vw + 6.8px);
+        padding-bottom: calc(1.5vw + 15px);
+}
+}
+.leonardo-dicaprio-audience-comments-to-the-film-ava-info-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-ava-info{
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-ava-info{
+        display: flex;
+        flex-direction: row;
+        gap: 11px;
+}
+}
+.leonardo-dicaprio-audience-comments-to-the-film-ava-info img{
+    width: calc(3.4vw + 49px);
+    height: calc(3.4vw + 49px);
+}
+.leonardo-dicaprio-audience-comments-to-the-film-info{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 19px;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-info-date-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 22px;
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-info-date-name{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+}
+}
+.leonardo-dicaprio-audience-comments-to-the-film-info-date-name h6{
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: calc(0.6vw + 18px);   
+}
+.leonardo-dicaprio-audience-comments-to-the-film-info-date-name .leonardo-dicaprio-audience-comments-to-the-film-info-date{
+    color: #CBCBCB;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 500;
+    font-size: calc(0.1vw + 12.6px);
+    padding-top: 6px;
+   
+}
+.leonardo-dicaprio-audience-comments-to-the-film-info-actors-films{
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.3vw + 14px);   
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-info-actors-films{
+        display: none;
+        color: #ffffff;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 400;
+        font-size: calc(0.3vw + 14px);   
+}
+}
+.leonardo-dicaprio-audience-comments-to-the-film-buttons-container{
+    display: flex;
+    flex-direction: row;
+    gap: 8.13px;
+}
+
+.leonardo-dicaprio-audience-comments-to-the-film-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8.13px;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-buttons .leonardo-dicaprio-audience-comments-to-the-film-like-buttons,
+.leonardo-dicaprio-audience-comments-to-the-film-buttons .leonardo-dicaprio-audience-comments-to-the-film-dislike-buttons{
+    width: calc(1.4vw + 31.6px);
+    height: calc(1.4vw + 31.6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B2133;
+    border: none;
+    border-radius: 10px;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-buttons .leonardo-dicaprio-audience-comments-to-the-film-dislike-buttons{
+    width: calc(1.4vw + 31.6px);
+    height: calc(1.4vw + 31.6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B2133;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-like-buttons img,
+.leonardo-dicaprio-audience-comments-to-the-film-dislike-buttons img
+{
+    width: calc(0.6vw + 13.9px);
+    height: calc(0.6vw + 13.9px);
+}
+.leonardo-dicaprio-audience-comments-to-the-film-dislike-buttons img
+{
+    width: calc(0.6vw + 13.9px);
+    height: calc(0.6vw + 13.9px);
+}
+
+.leonardo-dicaprio-audience-comments-to-the-film-dislike-like-buttons-numbers{
+    color: #CBCBCB;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.1vw + 11.4px);
+}
+.leonardo-dicaprio-audience-comments-to-the-film-info-actors-films-copy{
+    display: none;
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.3vw + 14px);   
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-info-actors-films-copy{
+        display: flex;
+        color: #ffffff;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 400;
+        font-size: calc(0.3vw + 14px);   
+}
+}
+.leonardo-dicaprio-audience-comments-to-the-film-commentate-complaint{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-commentate{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-commentate img{
+    width: calc(0.2vw + 11.2px);
+}
+.leonardo-dicaprio-audience-comments-to-the-film-commentate-link{
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 600;
+    font-size: calc(0.3vw + 7.8px);
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-complaint{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+@media (max-width:426px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-complaint{
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
+}
+}
+
+.leonardo-dicaprio-audience-comments-to-the-film-complaint img{
+    width: calc(0.3vw + 8.8px);
+}
+
+.leonardo-dicaprio-audience-comments-to-the-film-complaint-comment{
+    color: #FF9E9E;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 600;
+    font-size: calc(0.3vw + 7.8px);
+    text-decoration: none;
+    border-bottom: 1px solid #FF9E9E;
+}
+
+.leonardo-dicaprio-audience-comments-to-the-film-answer-img{
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    padding-left: calc(3.7vw - 12px);
+}
+@media (max-width:643px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-answer-img{
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+}
+}
+@media (max-width:321px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-answer-img{
+        display: flex;
+        flex-direction: row;
+        gap: 1px;
+}
+}
+
+.leonardo-dicaprio-audience-comments-to-the-film-answer-img img{
+    width: 5px;
+}
+
+
+
+.leonardo-dicaprio-audience-comments-to-the-film-answer-comment{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    background-color: #191E2E;
+    padding-left: calc(1.5vw + 17.2px);
+    padding-top: calc(1.4vw + 19.4px);
+    padding-right: calc(1.9vw + 6.8px);
+    padding-bottom: calc(1.1vw + 23.4px);
+    border-radius: 10px;
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-answer-comment{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        background-color: #191E2E;
+        padding-left: calc(1.5vw + 5.2px);
+        padding-top: calc(1.4vw + 19.4px);
+        padding-right: calc(1.9vw + 6.8px);
+        padding-bottom: calc(1.1vw + 23.4px);
+}
+}
+@media (max-width:321px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-answer-comment{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        background-color: #191E2E;
+        padding-left: calc(0.5vw + 2.2px);
+        padding-top: calc(1.4vw + 19.4px);
+        padding-right: calc(1.9vw + 6.8px);
+        padding-bottom: calc(1.1vw + 23.4px);
+}
+}
+.leonardo-dicaprio-audience-comments-to-the-film-answer-comment-ava-info-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-answer-comment-ava-info{
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-answer-comment-ava-info{
+        display: flex;
+        flex-direction: row;
+        gap: 11px;
+}
+}
+.leonardo-dicaprio-audience-comments-to-the-film-answer-comment-ava-info img{
+    width: calc(3.4vw + 49px);
+    height: calc(3.4vw + 49px);
+}
+.leonardo-dicaprio-audience-comments-to-the-film-answer-comment-info{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 19px;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-answer-comment-info-date-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+}
+@media (max-width:662px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-answer-comment-info-date-name{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+}
+}
+.leonardo-dicaprio-audience-comments-to-the-film-answer-comment-info-date-name h6{
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: calc(0.6vw + 18px);   
+}
+.leonardo-dicaprio-audience-comments-to-the-film-answer-comment-info-date-name .leonardo-dicaprio-audience-comments-to-the-film-answer-comment-info-date{
+    color: #CBCBCB;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 500;
+    font-size: calc(0.1vw + 12.6px);
+    padding-top: 6px;
+   
+}
+.leonardo-dicaprio-audience-comments-to-the-film-answer-comment-info-actors-films{
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.3vw + 14px);   
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-answer-comment-info-actors-films{
+        display: none;
+        color: #ffffff;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 400;
+        font-size: calc(0.3vw + 14px);   
+}
+}
+.leonardo-dicaprio-audience-comments-to-the-film-aswer-to-lerata{
+    color: #A7A3A3;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.3vw + 10.8px);   
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-aswer-to-lerata{
+        display: none;
+        color: #A7A3A3;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 400;
+        font-size: calc(0.3vw + 10.8px);   
+}
+}
+.leonardo-dicaprio-audience-comments-to-the-film-aswer-to-lerata-button{
+    background: none;
+    color: #A7A3A3;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.3vw + 10.8px);
+    border: none;
+    border-bottom: 1px solid#A7A3A3; 
+}
+.leonardo-dicaprio-audience-comments-to-the-film-answer-comment-buttons-container{
+    display: flex;
+    flex-direction: row;
+    gap: 8.13px;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-answer-comment-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8.13px;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-buttons .leonardo-dicaprio-audience-comments-to-the-film-like-buttons,
+.leonardo-dicaprio-audience-comments-to-the-film-buttons .leonardo-dicaprio-audience-comments-to-the-film-dislike-buttons{
+    width: calc(1.4vw + 31.6px);
+    height: calc(1.4vw + 31.6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B2133;
+    border: none;
+    border-radius: 10px;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-buttons .leonardo-dicaprio-audience-comments-to-the-film-dislike-buttons{
+    width: calc(1.4vw + 31.6px);
+    height: calc(1.4vw + 31.6px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B2133;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-like-buttons img,
+.leonardo-dicaprio-audience-comments-to-the-film-dislike-buttons img
+{
+    width: calc(0.6vw + 13.9px);
+    height: calc(0.6vw + 13.9px);
+}
+.leonardo-dicaprio-audience-comments-to-the-film-dislike-buttons img
+{
+    width: calc(0.6vw + 13.9px);
+    height: calc(0.6vw + 13.9px);
+}
+
+.leonardo-dicaprio-audience-comments-to-the-film-dislike-like-buttons-numbers{
+    color: #CBCBCB;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.1vw + 11.4px);
+}
+.leonardo-dicaprio-audience-comments-to-the-film-aswer-to-lerata-copy{
+    display: none;
+    color: #A7A3A3;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.3vw + 10.8px);   
+}
+
+@media (max-width:426px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-aswer-to-lerata-copy{
+        display: flex;
+        gap: 5px;
+        color: #A7A3A3;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 400;
+        font-size: calc(0.3vw + 10.8px);   
+}
+}
+.leonardo-dicaprio-audience-comments-to-the-film-aswer-to-lerata-button-copy{
+    display: none;
+    background: none;
+    color: #A7A3A3;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.3vw + 10.8px);
+    border: none;
+    border-bottom: 1px solid#A7A3A3; 
+}
+@media (max-width:426px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-aswer-to-lerata-button-copy{
+        display: flex;
+        background: none;
+        color: #A7A3A3;
+        font-family: "Qanelas", sans-serif;
+        font-weight: 400;
+        font-size: calc(0.3vw + 10.8px);
+        border: none;
+        border-bottom: 1px solid#A7A3A3; 
+}
+}
+.leonardo-dicaprio-audience-comments-to-the-film-commentate-complaint{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-commentate{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-commentate img{
+    width: calc(0.2vw + 11.2px);
+}
+.leonardo-dicaprio-audience-comments-to-the-film-commentate-link{
+    color: #ffffff;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 600;
+    font-size: calc(0.3vw + 7.8px);
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-complaint{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+@media (max-width:426px) {
+    .leonardo-dicaprio-audience-comments-to-the-film-complaint{
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
+}
+}
+
+.leonardo-dicaprio-audience-comments-to-the-film-complaint img{
+    width: calc(0.3vw + 8.8px);
+}
+
+.leonardo-dicaprio-audience-comments-to-the-film-complaint-comment{
+    color: #FF9E9E;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 600;
+    font-size: calc(0.3vw + 7.8px);
+    text-decoration: none;
+    border-bottom: 1px solid #FF9E9E;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-avatar {
+    width: calc(3.4vw + 49px);
+    height: calc(3.4vw + 49px);
+    border-radius: 50%;
+    background: #3b425e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leonardo-dicaprio-audience-comments-to-the-film-avatar img {
+    width: calc(1.05vw + 13.49px);
+    height: calc(1.3vw + 17.6px);
+}
+.leonardo-dicaprio--audience-comments-to-the-film-grey-wall {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1E2538;
+    padding-left: calc(0.2vw + 22.2px);
+    padding-top: 22px;
+    padding-right: calc(55.9vw - 80px);
+    padding-bottom: calc(3.6vw + 84.4px);
+}
+.leonardo-dicaprio--audience-comments-to-the-film-grey-wall .leonardo-dicaprio-audience-comments-to-the-film-did-you-understand {
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 400;
+    font-size: calc(0.3vw + 12.8px);
+}
+.leonardo-dicaprio--audience-comments-to-the-film-answer-comment {
+    display: flex;
+    align-self: center;
+    background-color: #F2F60F;
+    color: #151A26;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 700;
+    font-size: calc(0.1vw + 14.4px);
+    border-radius: 10px;
+    padding-left: calc(-1.1vw + 58.8px);
+    padding-top: calc(0.4vw + 12.6px);
+    padding-right: calc(-1.2vw + 60px);
+    padding-bottom: calc(0.2vw + 15.2px);
+    cursor: pointer;
+}
+.the-end{
+    padding-left: calc(14.3vw - 31.8px);
+    padding-top: 95px;
+    flex-direction: column;
+    padding-right: calc(14.4vw - 32.4px)
+}
+.blue-wall{
+    background-image: url(./images/all-films.png);
+    width: 100%;
+    height: 100%;
+    background-color: #151A26;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+@media(max-width: 1216px){
+    .subscribe{
+        gap:16px;
+    }
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 76px;
+}
+@media(max-width: 1216px){
+    .subscribe{
+        gap:16px;
+    }
+}
+@media(max-width: 600px){
+    .subscribe{
+        gap:9px;
+    }
+}
+.subscribe h4{
+    color: #FFFFFF;
+    font-family: "Qanelas", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100%;
+}
+@media(max-width: 1216px){
+    .subscribe h4{
+        font-size: 35px;
+    }
+}
+@media(max-width: 600px){
+    .subscribe h4{
+        font-size: 25px;
+    }
+}
+.subscribe p{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    line-height: 100%;
+    color: #ffffff;
+}
+@media(max-width: 1216px){
+    .subscribe p{
+        font-size: 17px;
+    }
+}
+@media(max-width: 600px){
+    .subscribe p{
+        font-size: 15px;
+    }
+}
+
+.registration{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+@media(max-width: 600px){
+    .registration{
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        align-items: center;
+        align-self: center;
+    }
+}
+.email{
+    width: calc(8.8vw + 255px);
+    height: calc(0.5vw + 60px);
+    border-radius: 10px;
+    border: none;
+}
+.email-button{
+    width: calc(7.4vw + 140px);
+    height: 62px;
+    border-radius: 10px;
+    border: none;
+    background-color:#e5ff00;
+}
+.negotiation .yellow-wall{
+    background-color: #d3ea00;
+}
+.negotiation span{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 17px;
+    line-height: 100%;
+    color: #ffffff;
+}
+@media(max-width: 1216px){
+    .negotiation span{
+        font-size: 14px;
+    }
+}
+@media(max-width: 600px){
+    .negotiation span{
+        font-size: 12px;
+    }
+}
+
+.politic{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    line-height: 100%;
+    color: #f2ff00;
+}
+@media(max-width: 1216px){
+    .politic{
+        font-size: 17px;
+    }
+}
+@media(max-width: 600px){
+    .politic{
+        font-size: 10px;
+    }
+}
+footer{
+    width: 100%;
+    display: flex;
+    padding-left: calc(14.3vw - 31.8px);
+    padding-top: 61px;
+    flex-direction: column;
+    padding-right: calc(14.4vw - 32.4px);
+    align-items: center;
+    gap: 30px;
+}
+footer .links-pages .links-pages-rows {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+@media(max-width: 869px){
+    footer .links-pages{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width: 869px){
+    footer .links-pages .links-pages-rows{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+footer .links-pages .links-pages-rows .links-page{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    list-style: none;
+}
+
+@media(max-width: 1001px){
+    footer .links-pages .links-pages-rows .links-page{
+        font-size: 13px;
+    }
+}
+footer .links-pages .links-pages-rows .links-page a {
+    text-decoration: none;
+    color: #FFFFFF;
+    outline: none;
+}
+footer span{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    list-style: none;
+    color: #E3E6F0B8;
+}
+@media(max-width: 1001px){
+    footer span{
+        font-size: 13px;
+    }
+}
+footer a{
+    font-family: 'Qanelas', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    list-style: none;
+    color: #E3E6F0B8;
+}
+@media(max-width: 1001px){
+    footer a{
+        font-size: 13px;
+    }
+}

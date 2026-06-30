@@ -7,7 +7,7 @@
 
 body {
     background-image: url('./images/big-potter.png');
-    background-size: cover;
+    background-size: contain;
     background-color: #151A26;
     background-repeat: no-repeat;
     background-position: center top;
@@ -3080,7 +3080,7 @@ body {
 }
 .commentate-img img{
     width: 16px;
-    height: 14.06px;
+    height: 14.09px;
 }
 .commentate-img .commentate-link,
 .link-img .commentate-link {
