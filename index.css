@@ -372,7 +372,7 @@ header nav ul li a {
     align-items: center;
 }
 
-@media (max-width:1366px) {
+@media (max-width:1657px) {
     .film-now {
         width: 100%;
         flex-direction: column;
@@ -413,7 +413,7 @@ header nav ul li a {
 .film-now h2 {
     font-family: 'Qanelas', sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: calc(2.3vw + 20.6px);
     line-height: 100%;
     color: #FFFFFF;
 }
@@ -447,7 +447,7 @@ header nav ul li a {
     border-width: 2px;
 }
 
-@media (max-width:1366px) {
+@media (max-width:1657px) {
     .film-now img {
         display: none;
     }
@@ -658,7 +658,7 @@ header nav ul li a {
     color: #FFFFFF;
     font-family: "Qanelas", sans-serif;
     font-weight: 900;
-    font-size: calc(2.2vw +22.6px);
+    font-size: calc(2.3vw + 20.6px);
     line-height: 100%;
 }
 
@@ -700,7 +700,7 @@ iframe {
     color: #FFFFFF;
     font-family: "Qanelas", sans-serif;
     font-weight: 900;
-    font-size: 25px;
+    font-size: calc(1.2vw + 21px);
     line-height: 100%;
 }
 
@@ -801,7 +801,7 @@ iframe {
     align-items: center;
 }
 
-@media (max-width:1172px) {
+@media (max-width:1657px) {
     .all-popular-films {
         width: 100%;
         flex-direction: column;
@@ -823,7 +823,7 @@ iframe {
 .all-popular-films h5 {
     font-family: 'Qanelas', sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: calc(2.3vw + 20.6px);
     line-height: 100%;
     gap: 20px;
     color: #FFFFFF;
@@ -849,7 +849,7 @@ iframe {
     border-width: 2px;
 }
 
-@media (max-width:1172px) {
+@media (max-width:1657px) {
     .all-popular-films img {
         display: none;
     }
@@ -981,7 +981,7 @@ iframe {
     padding-bottom: 30px;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1131px) {
     .all-popular-persons {
         width: 100%;
         flex-direction: column;
@@ -1002,8 +1002,8 @@ iframe {
 
 .all-popular-persons h6 {
     font-family: 'Qanelas', sans-serif;
-    font-weight: 900px;
-    font-size: 30px;
+    font-weight: 900;
+    font-size:calc(2.3vw + 20.6px);
     line-height: 100%;
     gap: 20px;
     color: #FFFFFF;
@@ -1615,7 +1615,7 @@ iframe {
     color: #FFFFFF;
     font-family: "Qanelas", sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: calc(2.3vw + 20.6px);
     line-height: 100%;
 }
 
@@ -1999,7 +1999,7 @@ iframe {
     color: #FFFFFF;
     font-family: "Qanelas", sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: calc(2.3vw + 20.6px);
     line-height: 100%;
 }
 
@@ -2035,7 +2035,7 @@ iframe {
     justify-content: space-between;
     align-items: center;
 }
-@media(max-width:1001px){
+@media(max-width:1368px){
     .all-box-office-receipts{
         flex-direction: column;
         align-items: self-start;
@@ -2053,7 +2053,7 @@ iframe {
     color: #FFFFFF;
     font-family: "Qanelas", sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: calc(2.3vw + 20.6px);
     line-height: 100%;
 }
 @media(max-width:1115px){
